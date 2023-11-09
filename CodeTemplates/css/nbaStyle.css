@@ -1,3 +1,29 @@
-﻿body
+﻿@media screen and s(min-width:413px)
+#landing
 {
+	display:flex;
 }
+#left 
+{	display:flex;
+	flex-direction: column;
+	justiffy-content:center;
+	background-color: black;
+	color:white;
+	height: 100vh;
+}
+#right
+{
+	width:60vw;
+	height: 100vh;
+}
+img
+{
+	width:100%;
+	height: 100%;
+}
+.title
+{
+	padding-left:30px;
+	padding-right:30px;
+}
+@media screen and(max-width:413px)
