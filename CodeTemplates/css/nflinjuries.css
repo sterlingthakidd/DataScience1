@@ -1,45 +1,39 @@
-﻿/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+﻿body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Basic styling for header, nav, and footer */
-header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
 }
-
-nav ul {
-    list-style: none;
-}
-
-    nav ul li {
-        display: inline;
-        margin: 0 10px;
-    }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
+.content {
+  margin-bottom: 500px; /* To simulate content */
 }
 
-/* Style headings, paragraphs, etc. */
-h1, h2 {
-    color: #333;
-    margin-bottom: 10px;
+.animation {
+  display: none; /* Initially hide the animation content */
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Define other styles as needed */
+h1 {
+    text-align: center;
+    margin: 0px auto;
+    display; block;
+}
+
+img {
+  width: 400px,
+  height: 300px
+}
